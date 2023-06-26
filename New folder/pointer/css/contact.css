@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+}
+body{
+    /* background-color: rgb(36, 35, 35); */
+    background-image: url(../assets/d5.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{ 
+    border-bottom: 1px solid black;
+    background-color: #333333;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    /* justify-items: center; */
+    align-items: center;
+    padding: 12px 0px;
+} 
+.box a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 44%;
+    margin: 0px 6px;
+    padding: 5px 8px;
+    font-family: 'Roboto Mono', monospace;
+}
+.box a:hover, .active{
+    border-bottom: 2px solid #e81050;
+}
+.logo h1{
+    height: 50px;
+    position: absolute;
+    left: 10%;
+    top: 4%;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 715px;
+    /* background-image: url("../assets/blog-8.jpg"); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.form{
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 90px;
+    width: 30%;
+    height: fit-content;
+    padding: 5px;
+    /* overflow: auto; */
+    /* top: 110px; */
+}
+.form h1{
+    margin-bottom: 20px;
+    color: #E81050;
+    margin-left: 142px;
+    text-decoration: underline;
+}
+.element{
+    float: left;
+    clear: left;
+    margin-left: 45px;
+    font-size: 17px;
+    border: 2px solid rgb(62, 10, 62);
+}
+.form input{
+    cursor: pointer;
+    background: none;
+    margin-bottom: 12px;
+    border-radius: 15px;
+    padding: 8px 5px 8px 15px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.form input:hover{
+    box-shadow: 2px 2px 8px 2px black;
+    /* width: 13em;
+    height: 22px; */
+}
+.form textarea{
+    cursor: pointer;
+    background: none;
+    margin-bottom: 12px;
+    border-radius: 15px;
+    padding: 8px 5px 8px 15px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.form textarea:hover{
+    box-shadow: 2px 2px 8px 2px black;
+    /* width: 13em;
+    height: 22px; */
+}
+.btn{
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: #E81050;
+    border-radius: 8px;
+    color: white;
+    padding: 5px 8px 5px 8px;
+}
+.btn:hover{
+    background-color: rgb(24, 1, 44);
+}
+.btn:active{
+    background-color: violet;
+    color: black;
+}
+.logo h2{
+    position: absolute;
+    top: 20px;
+    left: 70%;
+    color: rgb(142, 5, 142);
+    /* font-family: Rubik Pixels; */
+    font-size: 35px;
+    /* animation: animate 2s linear infinite; */
+}
+
+/* ******************footer****************** */
+footer{
+    background-color: #333333;
+    /* margin-top: -4px;
+    position: relative;
+    top: 735px; */
+    padding: 50px;
+    /* height: 419px; */
+}
+.first-row{
+    display: flex;
+    padding: 48px 15px;
+    /* margin: 0px 170.8px; */
+    justify-content: center;
+    width: 100%;
+    border-bottom: 2px solid grey;
+}
+.footer-element{
+    /* padding-right: 15px; */
+    margin-right: 70px;
+    width: 25%;
+}
+.footer-element h3{
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Teko', sans-serif;
+    font-size: 27px;
+}
+footer .content{
+    padding-top: 32px;
+    line-height: 35px;
+    color: grey;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+}
+.links a{
+    text-decoration: none;
+    color: grey;
+    width: 107px;
+}
+.links a:hover{
+    text-decoration: underline;
+}
+.email input{
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 18px;
+    background-color: transparent;
+    border: 1px solid grey;
+}
+.btn-2{
+    background-color: #e81050;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 19px;
+    height: 38px;
+    width: 88px;
+}
+.second-row{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    margin: 0px 170.8px;
+    height: 60px;
+}
+.copyright{
+    color: grey;
+    margin-left: 2%;
+}
+.social{
+    margin-top: 16px;
+}
+.social span{
+    color: grey;
+    letter-spacing: 13px;
+}
+.social p{
+    color: white;
+    /* letter-spacing: 13px; */
+}

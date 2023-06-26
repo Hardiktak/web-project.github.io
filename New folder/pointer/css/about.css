@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+/****************** middle part************* */
+.Name h1{
+    color: #E81050;
+    font-size:50px ;
+    font-family: "Oswald",sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: block;
+    text-align: left;
+    margin-left: 30px;    
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+.middle{
+    display: flex;
+}
+.bg-img{
+    margin-left: 250px;
+    font-family: "Oswald",sans-serif;
+    font-size: 45px;
+    
+
+}
+.mid-text{
+    background: linear-gradient(#f54379, #f90c53);
+    padding: 45px 60px;
+    font-family: "Oswald",sans-serif;
+    font-size: 45px;
+    display: block;
+    font-weight: 500;
+    line-height: 1;
+    padding-left: 75px;
+    position: relative;
+    width: 542px;
+    height: 352px;
+    padding-top: 9px;
+    right: 217px;
+}
+.mid-text p{
+    margin-top: 100px;
+    margin-left: 201px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #656565;  
+}
+.mid-text span{
+    font-size: 20px;
+    margin-left: 205px;
+    color: #656565;
+}
+ /* *******************3 img with flex property*********** */
+.services{
+    margin-top: 200px;
+    display: flex;
+}
+.text-2-img{
+    position: relative;
+    right: -22px;
+}
+.text-1 h5{
+    font-size: 20px;
+    font-family: "Oswald",sans-serif;
+    font-weight: 800;
+}
+.text-2 h5{
+    font-size: 20px;
+    font-family: "Oswald",sans-serif;
+    font-weight: 800;
+}
+.text-3 h5{
+    font-size: 20px;
+    font-family: "Oswald",sans-serif;
+    font-weight: 800;
+}
+.text-1 p{
+    color: #656565;
+    text-align-last: auto;
+
+}
+.text-2 p{
+    color: #656565;
+    text-align-last: auto;
+}
+.text-3 p{
+    color: #656565;
+    text-align-last: auto;
+}
+/* ****************after 3 img**************  */
+.servies-1{
+    display: flex;
+    margin-top: 200px;
+}
+.heading h2{
+    font-size: 45px;
+    color: #1E1E1E;
+    display: block;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-left: 256px;
+    font-family: "Oswald",sans-serif;
+}
+.heading p{
+    color: #656565;
+    width: 461px;
+    text-align: justify;
+    margin-left: 256px; 
+    font-family: "Oswald",sans-serif;
+}
+.floatright{
+    margin-left: 132px;
+
+}
+.float-img{
+    width: 80%;
+    height: 80%;
+}
+/* ***********************last part*********************** */
+.business{
+    text-align: center;
+    margin: 20px 30%;
+    width: 50%;
+}
+.business h1{
+    font-weight: 600;
+    font-size: 45px;
+    font-family: "Oswald",sans-serif;
+    color: #E81050;
+}
+.business p{
+    color: #656565;
+    text-align: center;
+    padding: 20px;
+}
+.btn{
+    cursor: pointer;
+    text-align: center;
+    color: #1E1E1E !important;
+    border: 2px solid #1E1E1E;
+    display: inline-block;
+    padding: 16px 47px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px 50%;
+}
+.btn:hover{
+    background: #00FFAB;
+    
+}
+.data{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10%;
+}
+.counter span{
+    
+    font-family: "Oswald",sans-serif;
+    color: #55A48A;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 12px;
+    display: inline-block;
+    text-transform: uppercase;
+
+}
+.counter{
+    text-align: center;
+    margin: 75px 0%;
+}
+.counter p{
+    color: #132E43;
+    font-size: 18px;
+    line-height: 1.4;
+}
+

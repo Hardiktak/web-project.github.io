@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+}
+.blogs{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+}
+.row{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 35px;
+}
+.blogs img{
+    width: 350px;
+    height: 220px;
+}
+.blog-element{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    width: 350px;
+}
+.blog-text{
+    padding: 10px 16px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+.blog-text h2{
+    font-size: 18px;
+}
+.blog-text p{
+    font-size: 14px;
+    color: grey;
+}
+.counter{
+    /* border: 2px solid red; */
+    display: flex;
+}
+.counter div{
+    border: 2px solid #E81050;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    position: relative;
+    left: 39%;
+    margin-right: 5px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 35px;
+    font-size: 18px;
+    transition: 0.4s;
+}
+.counter div:hover{
+    background-color: #E81050;
+    color: white;
+}
